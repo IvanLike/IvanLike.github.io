@@ -1,131 +1,97 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Document</title>
     <style>
-      html,
-      body {
-        margin: 0;
-        font: 300 1.2rem/1.2 Arial, sans-serif;
-      }
-      .main-header {
-        height: 350px;
+      h1 {
         text-align: center;
       }
-      .ovf-header {
-        padding: 10px 0;
-        height: 100%;
-        background: gray url("") 50% / cover;
-      }
-      .site-name {
-        color: white;
-        padding: 30px;
-        background: rgba(0, 0, 0, 0.4);
-      }
-      .section-name {
-        text-align: center;
-      }
-      .main-nav {
-        display: flex;
-        justify-content: center;
-      }
-      .nav-link {
-        width: 200px;
-        text-align: center;
-        box-sizing: border-box;
-        padding: 10px;
-        text-decoration: none;
-        color: white;
-        background: black;
+      .my_favorite {
+        width: 465px;
+        height: 250px;
+        background: grey url("https://dummyimage.com/465x250/555/fff.png") 50% /
+          cover;
         display: inline-block;
-        margin: 10px;
       }
-      li {
-        display: block;
+      .film1 {
+        background-image: url("https://st.kp.yandex.net/images/film_iphone/iphone360_462360.jpg");
       }
-      .container {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
+      .film2 {
+        background-image: url("https://st.kp.yandex.net/images/film_iphone/iphone360_718223.jpg");
       }
-      .card {
-        width: 300px;
-        box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.4);
-        margin: 10px;
+      .film3 {
+        background-image: url("https://st.kp.yandex.net/images/film_iphone/iphone360_920265.jpg");
       }
-      .card-header {
-        text-align: center;
+      .film4 {
+        background-image: url("https://st.kp.yandex.net/images/film_iphone/iphone360_843649.jpg");
       }
-      .card-img {
-        width: 100%;
-        object-fit: cover;
-        height: 200px;
+      .film5{
+        background-image: url("https://st.kp.yandex.net/images/film_iphone/iphone360_841263.jpg");
       }
-      .card-text {
-        font-size: 1rem;
-        padding: 10px;
+      .film6{
+        background-image: url("https://st.kp.yandex.net/images/film_iphone/iphone360_839650.jpg");
       }
-      .main-footer {
-        padding: 30px;
-        text-align: center;
-        background: black;
-        color: white;
+      .film7{
+        background-image: url("https://st.kp.yandex.net/images/film_iphone/iphone360_706655.jpg");
       }
-      section {
-        margin: 40px auto;
+      .film8{
+        background-image: url("https://st.kp.yandex.net/images/film_iphone/iphone360_775276.jpg");
+      }
+      .film9{
+        background-image: url("https://st.kp.yandex.net/images/film_iphone/iphone360_797840.jpg");
+      }
+      .film10{
+        background-image: url("https://st.kp.yandex.net/images/film_iphone/iphone360_453406.jpg");
+      }
+      .film11{
+        background-image: url("https://st.kp.yandex.net/images/film_iphone/iphone360_522941.jpg");
+      }
+      .film12{
+        background-image: url("https://st.kp.yandex.net/images/film_iphone/iphone360_906654.jpg");
       }
     </style>
   </head>
   <body>
-    <header class="main-header">
-      <div class="ovf-header">
-        <h1 class="site-name">Название сайта</h1>
-        <nav>
-          <ul class="main-nav">
-            <li><a class="nav-link" href="#">Главная</a></li>
-            <li><a class="nav-link" href="#about">О нас</a></li>
-            <li><a class="nav-link" href="#">Продукты</a></li>
-            <li><a class="nav-link" href="#">Контакты</a></li>
-          </ul>
-        </nav>
-      </div>
-    </header>
-    <main>
-      <section id="about">
-        <h2 class="section-name">О нас</h2>
-        <div class="container">
-          <article class="card">
-            <img class="card-img" src="img/img1.webp" alt="" />
-            <header>
-              <h3 class="card-header">Название</h3>
-            </header>
-            <p class="card-text">Мы работаем усердно</p>
-          </article>
+    <h1>Любимые фильмы</h1>
+    <a href="https://www.kinopoisk.ru/film/462360/"
+      ><div class="my_favorite film1"></div
+    ></a>
+    <a href="https://www.kinopoisk.ru/film/718223/"
+      ><div class="my_favorite film2"></div
+    ></a>
+    <a href="https://www.kinopoisk.ru/film/920265/"
+      ><div class="my_favorite film3"></div
+    ></a>
+    <a href="https://www.kinopoisk.ru/film/843649/"
+      ><div class="my_favorite film4"></div
+    ></a>
+    <a href="https://www.kinopoisk.ru/film/841263/"
+      ><div class="my_favorite film5"></div
+    ></a>
+    <a href="https://www.kinopoisk.ru/film/839650/"
+      ><div class="my_favorite film6"></div
+    ></a>
+    <a href="https://www.kinopoisk.ru/film/706655/"
+      ><div class="my_favorite film7"></div
+    ></a>
+    <a href="https://www.kinopoisk.ru/film/775276/"
+      ><div class="my_favorite film8"></div
+    ></a>
+    <a href="https://www.kinopoisk.ru/film/797840/"
+      ><div class="my_favorite film9"></div
+    ></a>
+    <a href="https://www.kinopoisk.ru/film/453406/"
+      ><div class="my_favorite film10"></div
+    ></a>
+    <a href="https://www.kinopoisk.ru/film/522941/"
+      ><div class="my_favorite film11"></div
+    ></a>
+    <a href="https://www.kinopoisk.ru/film/906654/"
+      ><div class="my_favorite film12"></div
+    ></a>
 
-          <article class="card">
-            <img class="card-img" src="img/img2.webp" alt="" />
-            <header>
-              <h3 class="card-header">Название</h3>
-            </header>
-            <p class="card-text">Мы работаем качественно</p>
-          </article>
-
-          <article class="card">
-            <img class="card-img" src="img/img3.jpg" alt="" />
-            <header>
-              <h3 class="card-header">Название</h3>
-            </header>
-            <p class="card-text">Мы работаем быстро</p>
-          </article>
-        </div>
-      </section>
-    </main>
-    <footer class="main-footer">
-      <p>Сайт создан Перегудовом Иваном</p>
-      <p>Все права защищены</p>
-    </footer>
   </body>
 </html>
